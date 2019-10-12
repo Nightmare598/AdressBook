@@ -44,7 +44,7 @@
                 return;
             }
             var response = await apiService.GetList<Book>(
-                "http://localhost:50765/", //ruta base
+                "http://localhost:51129/", //ruta base
                 "api/",//intermedio
                 "Books" // controlador
                );
@@ -52,7 +52,7 @@
             if (!response.IsSuccess)
             {
                 await Application.Current.MainPage.DisplayAlert(
-                    "Service Book  Error",
+                    "Phone Service Error",
                     response.Message,
                     "Accept"
                     );
@@ -62,10 +62,10 @@
             MainViewModel mainViewModel = MainViewModel.GetInstance();
             mainViewModel.ListBook = (List<Book>)response.Result;
 
-            this.Books = new ObservableCollection<Book>(this.ToBookCollec());
+            this.Books = new ObservableCollection<Book>(this.ToPhoneCollec());
         }
 
-        private IEnumerable<Book> ToBookCollec()
+        private IEnumerable<Book> ToPhoneCollec()
         {
             ObservableCollection<Book> collect = new ObservableCollection<Book>();
             MainViewModel main = MainViewModel.GetInstance();

@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.645
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAddress", "MVCAddress\MVCAddress.csproj", "{ABD280D2-2FB8-4EDF-8130-7DC1528B5223}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCPhone", "MVCAddress\MVCPhone.csproj", "{ABD280D2-2FB8-4EDF-8130-7DC1528B5223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiAdressbook", "apiAdressbook\apiAdressbook.csproj", "{91348FFD-4AEF-42E5-9BCB-891EA7979258}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiPhone", "apiAdressbook\apiPhone.csproj", "{91348FFD-4AEF-42E5-9BCB-891EA7979258}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appAddress.Android", "appAddress\appAddress.Android\appAddress.Android.csproj", "{86A77541-0354-48E6-B4D0-C056D38E8B87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appPhone.Android", "appAddress\appAddress.Android\appPhone.Android.csproj", "{86A77541-0354-48E6-B4D0-C056D38E8B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appAddress.iOS", "appAddress\appAddress.iOS\appAddress.iOS.csproj", "{404C217B-C630-4A84-95F3-7C428AAD6308}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appPhone.iOS", "appAddress\appAddress.iOS\appPhone.iOS.csproj", "{404C217B-C630-4A84-95F3-7C428AAD6308}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appAddress", "appAddress\appAddress\appAddress.csproj", "{A111DFEF-7EC5-4641-91AF-477BE1F9F815}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appPhone", "appAddress\appAddress\appPhone.csproj", "{A111DFEF-7EC5-4641-91AF-477BE1F9F815}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
